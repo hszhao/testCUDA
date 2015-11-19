@@ -180,7 +180,5 @@ int main()
 	kernel_3D_3D << <dim3(960*4, 1292, 1), dim3(964, 1, 1) >> >();
 	cudaDeviceReset();
 
-	//change
-
 	return 0;
 }
